@@ -14,12 +14,6 @@
 // limitations under the License.
 //
 
-package {
-    default_team: "trendy_team_android_sensors",
-    // See: http://go/android-license-faq
-    default_applicable_licenses: ["Android-Apache-2.0"],
-}
-
 cc_binary {
     name: "android.hardware.sensors-service.xiaomi-multihal",
     vendor: true,
